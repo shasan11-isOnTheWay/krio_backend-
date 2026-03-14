@@ -157,3 +157,6 @@ SIMPLE_JWT = {
 
 GOOGLE_CLIENT_ID = config("GOOGLE_CLIENT_ID", default="")
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://krio-backend.onrender.com"
+]
