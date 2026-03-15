@@ -43,7 +43,7 @@ db.sqlite3-journal
 /media
 /staticfiles
 *.pot
-migrations/
+# migrations/  — keep migrations in repo so deploy (e.g. Render) can run migrate
 
 # IDEs
 .vscode/
