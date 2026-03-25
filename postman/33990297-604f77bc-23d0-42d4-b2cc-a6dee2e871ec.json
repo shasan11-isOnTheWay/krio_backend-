@@ -27,8 +27,34 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"test1@example.com\",\n  \"password\": \"StrongPass123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/auth/login/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"auth",
+								"login",
+								""
+							]
+						}
 					},
 					"response": []
 				},
@@ -39,8 +65,41 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzczNjAzMDg4LCJpYXQiOjE3NzM2MDEyODgsImp0aSI6ImQ0Y2Y2N2ZlZGZmODQ5MTRhMjQ1NDg5MDNlYjEyMTYyIiwidXNlcl9pZCI6IjQifQ.TxSS9bqqEiwXkmP0fVdICOZsC-Wlp1kE4ieyeCxXQbs",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
-						"header": []
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzczNjAzMDg4LCJpYXQiOjE3NzM2MDEyODgsImp0aSI6ImQ0Y2Y2N2ZlZGZmODQ5MTRhMjQ1NDg5MDNlYjEyMTYyIiwidXNlcl9pZCI6IjQifQ.TxSS9bqqEiwXkmP0fVdICOZsC-Wlp1kE4ieyeCxXQbs",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/auth/profile/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"auth",
+								"profile",
+								""
+							]
+						}
 					},
 					"response": []
 				},
