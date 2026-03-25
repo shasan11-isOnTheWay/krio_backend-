@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "33990297-604f77bc-23d0-42d4-b2cc-a6dee2e871ec",
+		"name": "Krio_backend test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Local_test",
+			"item": [
+				{
+					"name": "register",
+					"id": "33990297-f87efbf0-ee36-47a8-8742-1ae0794cffdf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"id": "33990297-c27fe46d-5b77-4ceb-80ef-59ad2ee7c3a5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Profile",
+					"id": "33990297-8936053a-ebc7-4002-b53d-8ad99110dc92",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"id": "33990297-1d423729-fe75-4e43-9a6d-73fa26e85d6d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"id": "33990297-7effa946-6f36-4f00-8165-339bf6ccf03b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "google login",
+					"id": "33990297-41c1ed81-5411-4a66-b7ea-1fc124d60587",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "33990297-bc615b31-d88f-4c2c-94bf-df02a0d81011"
+		},
+		{
+			"name": "Live_Test",
+			"item": [
+				{
+					"name": "register",
+					"id": "33990297-44d3b13e-6b38-47f6-b1e6-3337474a114a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"id": "33990297-2bce4659-cb70-4ece-9887-e1a9855a2c7d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "profile",
+					"id": "33990297-1e71c4da-5dd1-4002-8895-d84be9c4d8ee",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Update_profle",
+					"id": "33990297-8f10e574-c6ef-46f6-913f-4e619024e700",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"id": "33990297-96559c6b-529c-4a7b-b44c-9a3d078cca7b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Google singin",
+					"id": "33990297-68171dc5-5a14-4d96-823c-945892a320d5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "33990297-026b530b-e56f-4f42-99ea-4b16693d69c2"
+		}
+	]
+}
