@@ -160,6 +160,84 @@
 				}
 			],
 			"id": "33990297-026b530b-e56f-4f42-99ea-4b16693d69c2"
+		},
+		{
+			"name": "Live_Test Copy",
+			"item": [
+				{
+					"name": "register",
+					"id": "33990297-f6a85a16-d126-42cd-b089-8c64db147cbd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"id": "33990297-7bec8d5a-0f4e-4bba-a853-6ed5dfd1012d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "profile",
+					"id": "33990297-267e030c-efc6-4222-8a4f-1bc0cfe0ac02",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Update_profle",
+					"id": "33990297-2266288b-e1e7-4db0-ad1d-a88c8ea9fa6b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"id": "33990297-bbf5b4fe-9afb-4207-a389-3f41895c3351",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Google singin",
+					"id": "33990297-d6c663cf-3a20-488b-a14d-d8161967a87f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "33990297-d37f2e15-19af-4d39-b8f3-d7d05b56fc24"
 		}
 	]
 }
